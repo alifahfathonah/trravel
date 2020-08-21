@@ -1,0 +1,130 @@
+/*layout*/
+.container{
+	max-width: 1080px;
+	/*margin: 20px auto;
+	background: #fff;*/
+	overflow: hidden;
+	/*padding: 10px;*/
+}
+
+/*.header{
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin: 10px;
+}
+
+//Main
+	.left{
+		width: 250px;
+		border: 1px solid #dedede;
+		background: #e5e5e5;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+
+	.middle{
+		width: 500px;
+		border: 1px solid #dedede;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+		.middle img{
+			max-width: 100%;
+			height: auto;
+		}
+
+	.right{
+		width: 250px;
+		border: 1px solid #dedede;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+
+.footer{
+	clear: both;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin: 10px;
+}
+*/
+
+/*tabel*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    /*border: 1px solid #ddd;*/
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+/*selalu ditengah*/
+.tengah{
+position: absolute;
+margin-top: -100px;
+margin-left: -200px;
+left: 50%;
+top: 50%;
+width: 400px;
+height: 220px;
+}
+
+/*gambar sesuai layout*/
+/*.middle img{
+	max-width: 100%;
+	height: auto;
+}*/
+
+/*menjadi 2 kolom ketika di tablet*/
+@media screen and (max-width: 1080px) {
+	
+	.container {
+		width: 100%;
+	}
+	/*.left {
+		width: 25%;
+		background: #fff000;
+	}
+	.middle {
+		width: 68%;
+		float: right;
+	}
+	
+	.right {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}*/
+}
+
+/*menjadi 1 kolom ketika di ponsel*/
+@media screen and (max-width: 780px) {
+	
+	.header, 
+	/*.footer{
+		text-align: center;
+	}*/
+	/*.left {
+		width: auto;
+		float: none;
+	}
+	
+	.middle {
+		width: auto;
+		float: none;
+	}
+	
+	.right {
+		width: auto;
+		float: none;
+	}*/
+
+}
+
